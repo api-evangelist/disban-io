@@ -64,5 +64,148 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-disban-io is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://disban.io/
+Disban provides an email‑domain classification API that helps developers detect disposable, free, alias, testing, parked or unknown email domains during user sign‑up flows. The service offers a free beta with 2,000 checks per month and supports GET requests without authentication for limited usage. It supplies SDKs for npm and PyPI, and an MCP server for batch checks. Disban aims to improve signup security and reduce fraud by filtering low‑quality email addresses.
+
+**Areas:** Company · Email · Disposable-Email · API · Security · Fraud-Prevention
+
+## disban-io on APIs.io
+
+Everything profiled for disban-io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/disban-io/](https://apis.io/providers/disban-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [disban-io Auth API](https://apis.io/apis/disban-io/disban-io-auth-api/) — The Auth API from disban-io — 5 operation(s) for auth.
+- [disban-io Batch API](https://apis.io/apis/disban-io/disban-io-batch-api/) — The Batch API from disban-io — 1 operation(s) for batch.
+- [disban-io Check API](https://apis.io/apis/disban-io/disban-io-check-api/) — The Check API from disban-io — 1 operation(s) for check.
+- [disban-io Features API](https://apis.io/apis/disban-io/disban-io-features-api/) — The Features API from disban-io — 1 operation(s) for features.
+- [disban-io Keys API](https://apis.io/apis/disban-io/disban-io-keys-api/) — The Keys API from disban-io — 2 operation(s) for keys.
+- [disban-io Plans API](https://apis.io/apis/disban-io/disban-io-plans-api/) — The Plans API from disban-io — 1 operation(s) for plans.
+- [disban-io Referrals API](https://apis.io/apis/disban-io/disban-io-referrals-api/) — The Referrals API from disban-io — 1 operation(s) for referrals.
+- [disban-io Subscription API](https://apis.io/apis/disban-io/disban-io-subscription-api/) — The Subscription API from disban-io — 1 operation(s) for subscription.
+- [disban-io Webhooks API](https://apis.io/apis/disban-io/disban-io-webhooks-api/) — The Webhooks API from disban-io — 1 operation(s) for webhooks.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Disban Io Agentic Access](https://apis.io/agentic-access/disban-io/disban-io-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/disban-io/disban-io-account/)
+- [Key](https://apis.io/schemas/disban-io/disban-io-key/)
+- [Offer](https://apis.io/schemas/disban-io/disban-io-offer/)
+- [Plan](https://apis.io/schemas/disban-io/disban-io-plan/)
+- [Subscription](https://apis.io/schemas/disban-io/disban-io-subscription/)
+- [Verdict](https://apis.io/schemas/disban-io/disban-io-verdict/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Disban Io Context](https://apis.io/jsonld/disban-io/disban-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [disban-io API Rules](https://apis.io/rules/disban-io/disban-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Disban Io Authentication](https://apis.io/security/disban-io/disban-io-authentication/)
+- [Disban Io Domain Security](https://apis.io/security/disban-io/disban-io-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Disban Io Scopes](https://apis.io/scopes/disban-io/disban-io-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Disban Io Plans Pricing](https://apis.io/plans/disban-io/disban-io-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Disban Io Rate Limits](https://apis.io/rate-limits/disban-io/disban-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://disban.io/)
+- [Documentation](https://disban.io/docs)
+- [Getting started](https://disban.io/signup)
+- [API reference](https://disban.io/docs)
+- [Support](https://disban.io/support)
+- [Blog](https://disban.io/blog)
+- [Terms of service](https://disban.io/terms)
+- [Privacy policy](https://disban.io/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.2** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 56.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 28.4 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 34.2 |
+
+**Agent readiness 42.8** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 34.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/disban-io/](https://apis.io/providers/disban-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for disban-io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/disban-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
